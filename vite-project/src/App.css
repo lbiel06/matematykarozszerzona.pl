@@ -1,0 +1,57 @@
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; /* Align items at the top */
+  flex-wrap: wrap; /* Ensures columns stack on mobile */
+}
+
+.menu {
+  flex-shrink: 0; /* Only takes up required space */
+  margin-left: 50px; /* Adjust margin as needed */
+  flex-basis: 35%;
+}
+
+.tasks{ 
+  flex-grow: 1; /* Cards take the remaining space */
+  flex-basis: 60%; /* Set the preferred width for larger screens */
+  max-width: 100%; /* Prevent overflowing */
+}
+
+.menu label {
+  margin-left: 5px;
+}
+
+.menu input {
+  accent-color: white;
+}
+
+@media (prefers-color-scheme: light) {
+  .menu input {
+    accent-color: #213547;
+  }
+}
+
+.heading {
+  font-size: 2em;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+@media (max-width: 1000px) {
+  .row {
+    flex-direction: column-reverse; /* Stack columns on mobile */
+  }
+  .menu {
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+
+  .tasks {
+      flex-basis: 100%; /* Cards take full width on mobile */
+      width: 100%;
+  }
+  .heading {
+    margin: 0;
+    font-size: 1.7em;
+  }
+}
