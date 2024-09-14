@@ -2,7 +2,6 @@
     margin-bottom: 50px;
 }
 
-
 .task-info {
     color: #888;
     font-style: italic;
@@ -14,6 +13,10 @@
     margin-top: 25px;
     filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(249deg) brightness(104%) contrast(104%);
 }
+.katex {
+    font-size: 1.2em !important;
+}
+
 @media (prefers-color-scheme: light) {
     .task-image svg {
         filter: brightness(0) saturate(100%) invert(18%) sepia(8%) saturate(2561%) hue-rotate(168deg) brightness(98%) contrast(94%) !important;
