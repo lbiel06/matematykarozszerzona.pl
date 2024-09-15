@@ -7,17 +7,6 @@ import { initializeApp } from "firebase/app"
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-// const firebaseConfig = {
-//   apiKey: "AIzaSyCAxO2EyOzCoqc5xnhaxmAD1M4Q3RM0CxA",
-//   authDomain: "matma-47017.firebaseapp.com",
-//   projectId: "matma-47017",
-//   storageBucket: "matma-47017.appspot.com",
-//   messagingSenderId: "842095880014",
-//   appId: "1:842095880014:web:fb41884fdb7ef995db201f",
-//   measurementId: "G-7PNHN570ZB",
-// }
-
-console.log(import.meta.env)
 
 const env = import.meta.env
 
