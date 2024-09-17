@@ -6,15 +6,14 @@ const typeLabels = [
   "geometria analityczna",
   "równanie z parametrem",
   "optymalizacja",
-  "stereometria",
   "planimetria",
+  "kombinatoryka i prawdopodobieństwo",
   "równanie trygonometryczne",
-  "prawdopodobieństwo",
-  "kombinatoryka",
+  "stereometria",
   "wielomiany",
   "granica",
   "styczna",
-  "wartość bezwzględna",
+  "inne",
 ]
 
 const collectionLabels = [
